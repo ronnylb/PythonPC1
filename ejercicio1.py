@@ -39,3 +39,21 @@ elif edad>4 and edad<18:
     print("Debe pagar $5")
 elif edad>18:
     print("Debe pagar $10")
+
+#Problema 7
+numero1 =int(input("Ingrese numero 1: "))
+numero2 =int(input("Ingrese numero 2: "))
+msg=input("Selecciona una de las 3 opciones: \n1) Suma de ambos numeros. \n2) Resta de Ambos numeros \n3) Multiplicacion de ambos numeros.")
+if msg == '1':
+    suma=numero1+numero2
+    print("La suma es:",suma)
+elif msg=='2':
+    resta=numero2-numero1
+    print("La resta es:",resta)
+elif msg =='3':
+    multi=numero1*numero2
+    print("La multiplicacion es:",multi)
+else:
+    print("Opcion incorrecta, seleccionar una opcion valida")
+
+#Problema 8
