@@ -6,8 +6,8 @@ print("¡Hola",nombre,"!")
 
 #Problema 2
 consumo= float(input("¿Cuanto fue su consumo?: "))
-propina= complex(input("¿Cuanto de propina desea dejar?: "))
-
+propina= float(input("¿Cuanto de propina desea dejar? (colocar en decimales el %): "))
 propinafinal=consumo*propina
+print("La propina es de:",propinafinal)
 
-print(propinafinal)
+#Problema 3
