@@ -57,3 +57,13 @@ else:
     print("Opcion incorrecta, seleccionar una opcion valida")
 
 #Problema 8
+tiempo=(input("Ingrese hora: "))
+hora, minutos=tiempo.split(":")
+if hora =='7' or (hora=='8' and minutos=='00'):
+    print("Es hora de Desayunar")
+elif hora == '12' or (hora=='12' and minutos=='00'):
+    print("Es hora de Almorzar")
+elif hora == '18' or (hora=='18' and minutos=='00'):
+    print("Es hora de Cenar")
+else:
+    print("")
