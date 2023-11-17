@@ -67,3 +67,43 @@ elif hora == '18' or (hora=='18' and minutos=='00'):
     print("Es hora de Cenar")
 else:
     print("")
+
+#COLECCION DE DATOS
+
+#Problema 9
+
+a = input("Ingrese palabra 1: ")
+b = input("Ingrese palabra 2: ")
+c = input("Ingrese palabra 3: ")
+d = input("Ingrese palabra 4: ")
+e = input("Ingrese palabra 5: ")
+listado=[e,d,c,b,a]
+print(listado)
+
+#Problema 10
+a = input("Ingrese palabra 1: ")
+b = input("Ingrese palabra 2: ")
+c = input("Ingrese palabra 3: ")
+d = input("Ingrese palabra 4: ")
+e = input("Ingrese palabra 5: ")
+listado=[a,b,c,d,e]
+listado.remove(listado[0])
+listado.remove(listado[4])
+listado.remove(listado[5])
+print(listado)
+
+#Problema 11
+
+
+
+
+
+
+
+
+
+
+
+
+
+
