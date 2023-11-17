@@ -81,19 +81,21 @@ listado=[e,d,c,b,a]
 print(listado)
 
 #Problema 10
-a = input("Ingrese palabra 1: ")
-b = input("Ingrese palabra 2: ")
-c = input("Ingrese palabra 3: ")
-d = input("Ingrese palabra 4: ")
-e = input("Ingrese palabra 5: ")
-listado=[a,b,c,d,e]
-listado.remove(listado[0])
-listado.remove(listado[4])
-listado.remove(listado[5])
-print(listado)
+lista = ['Rojo', 'Verde', 'Blanco', 'Negro', 'Rosa', 'Amarillo']
+
+lista.remove(lista[5])
+lista.remove(lista[4])
+lista.remove(lista[0])
+
+lista
+
 
 #Problema 11
+lista= [1, 1, 2, 3, 4, 4, 5, 1]
+lista1=set(lista)
+lista1
 
+#Problema 12
 
 
 
