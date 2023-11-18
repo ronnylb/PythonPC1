@@ -13,9 +13,12 @@ propinafinal=consumo*propina
 print("La propina es de:",propinafinal)
 
 #Problema 3
-payaso=1
-payaso=payaso+1
-munecas=1
+peso_payaso = 112
+peso_muñeca = 75
+payasos = int(input("Introduce el número de payasos a enviar: "))
+muñecas = int(input("Introduce el número de muñecas a enviar: "))
+peso_total = peso_payaso * payasos + peso_muñeca * muñecas
+print("El peso total del paquete es " + str(peso_total))
 
 #Problema 4
 numero=int(input("Escriba un numero entero: "))
@@ -96,7 +99,6 @@ lista1=set(lista)
 lista1
 
 #Problema 12
-
 
 
 
