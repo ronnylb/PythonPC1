@@ -99,7 +99,7 @@ lista1=set(lista)
 lista1
 
 #Problema 12
-
+ 
 
 
 
